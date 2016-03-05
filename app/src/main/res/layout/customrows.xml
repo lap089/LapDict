@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:padding="3dip"
+    style="@style/ThemeWithCorners"
+    android:soundEffectsEnabled="true"
+    android:background="@drawable/Blue"
+    android:backgroundTint="@drawable/PowderBlue"
+    android:baselineAligned="true"
+    android:gravity="left">
+        <ImageView
+             android:id="@+id/image"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:contentDescription="imagesetting"
+            android:src="@drawable/activebutton1" />
+              <TextView
+             android:layout_toRightOf="@+id/image"
+             android:padding="2dip"
+             android:textColor="@drawable/darkgrey"
+             android:layout_marginLeft="5dip"
+             android:id="@+id/name"
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+                  />
+    </LinearLayout>
